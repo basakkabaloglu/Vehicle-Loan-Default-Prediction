@@ -98,27 +98,6 @@ SHAP analysis identified the most influential variables as:
 
 ---
 
-## Repository Structure
-
-```
-Vehicle-Loan-Default-Prediction
-│
-├── notebooks/
-│   └── vehicle_loan_default_prediction.ipynb
-│
-├── images/
-│   ├── roc_curve.png
-│   ├── pr_curve.png
-│   ├── shap_summary.png
-│   └── feature_importance.png
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
----
-
 ## Results
 
 The study shows that handling class imbalance through cost-sensitive learning substantially improves recall without significantly reducing AUC. Among all evaluated models, XGBoost achieved the strongest overall performance while SHAP provided interpretable explanations for model predictions.
